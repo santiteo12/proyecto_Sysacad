@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+    <_expxml>
+        <provincia>1</provincia>
+        <nombre>Buenos Aires</nombre>
+        <pais>1</pais>
+    </_expxml>
+    <_expxml>
+        <provincia>2</provincia>
+        <nombre>Córdoba</nombre>
+        <pais>1</pais>
+    </_expxml>
+    <_expxml>
+        <provincia>3</provincia>
+        <nombre>Santa Fe</nombre>
+        <pais>1</pais>
+    </_expxml>
+    <_expxml>
+        <provincia>4</provincia>
+        <nombre>Mendoza</nombre>
+        <pais>1</pais>
+    </_expxml>
+</VFPData>

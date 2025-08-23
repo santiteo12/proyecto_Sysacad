@@ -1,0 +1,17 @@
+# Python environment
+env/
+venv/
+*.pyc
+__pycache__/
+
+# VSCode files
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.env
+.env

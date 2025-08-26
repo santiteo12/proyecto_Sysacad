@@ -2,7 +2,7 @@ from app import db
 
 class Facultad(db.Model):
     __tablename__ = 'facultades'
-
+#TODO añadir id a la base de datos 
     id: int  = db.Column(db.Integer, primary_key=True, autoincrement=True)
     nombre = db.Column(db.String(100), nullable=False)
     abreviatura = db.Column(db.String(10), nullable=False)

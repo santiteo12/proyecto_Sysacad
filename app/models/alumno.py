@@ -17,7 +17,7 @@ class Sexo(Enum):
 @dataclass(init=False, repr=True, eq=True)
 class Alumno(db.Model):
     __tablename__ = 'alumnos'
-    
+#TODO falta añadir en la base de datos la columna id  
     id: int = db.Column(db.Integer, primary_key=True, autoincrement=True)
     apellido: str = db.Column(db.String(100), nullable=False)
     nombre: str = db.Column(db.String(100), nullable=False)

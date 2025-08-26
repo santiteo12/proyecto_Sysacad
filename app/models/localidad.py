@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from app import db
-
+#TODO añadir localidad a la base de datos
 @dataclass(init=False, repr=True, eq=True)
 class Localidad(db.Model):
     __tablename__ = 'localidades'

@@ -3,7 +3,7 @@ from app.models.tipo_especialidad import TipoEspecialidad
 
 class Especialidad(db.Model):
     __tablename__ = 'especialidades'
-
+#TODO falta añadir en la base de datos la columna id
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     nombre = db.Column(db.String(100), nullable=False)
     letra = db.Column(db.String(10), nullable=False)

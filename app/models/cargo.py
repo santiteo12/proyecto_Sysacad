@@ -5,6 +5,7 @@ from app.models.tipo_dedicacion import TipoDedicacion
 
 @dataclass(init=False, repr=True, eq=True)
 class Cargo:
+    #TODO añadir codigo para guardar en la base de datos
     nombre: str
     puntos: int
     categoria_cargo: CategoriaCargo

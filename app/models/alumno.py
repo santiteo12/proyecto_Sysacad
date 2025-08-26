@@ -27,5 +27,5 @@ class Alumno(db.Model):
     sexo: str = db.Column(db.Enum(Sexo), nullable=False)
     nro_legajo: int = db.Column(db.Integer, nullable=False, unique=True)
     fecha_ingreso: date = db.Column(db.Date, nullable=False)
-
-    def nuevo_alumno
+#TODO añadir para agregar alumno
+    def nuevo_alumno():

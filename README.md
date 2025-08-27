@@ -1,5 +1,11 @@
 Autores :santaigo Garcia
 
+### descripcion del proyecto ###
+
+El proyecto SYSACAD es un sistema académico desarrollado con Python y Flask utilizando una base de datos de PostgreSQL, cuyo objetivo es centralizar y automatizar la gestión de la información académica. La aplicación permite administrar alumnos, planes de estudio, materias, facultades y autoridades, garantizando integridad de datos y facilitando el acceso a la información. Su diseño modular, basado en buenas prácticas de desarrollo y un modelo relacional, lo convierte en una solución escalable y adaptable a las necesidades de instituciones educativas.
+
+
+### para ejecutarlo ###
 Crear el entorno virtual
 Ejecutar en la raíz del proyecto:
 
